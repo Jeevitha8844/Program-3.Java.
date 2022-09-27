@@ -1,0 +1,19 @@
+int a=scan.nextInt();
+			   int n = a;
+			   int num=0;
+			   if(a%2==0)
+				   
+				   num=(n-1)*2;
+			   else
+				   num=n*2;
+			   System.out.print("Odd Numbers from 1 to "+num+" are: ");
+			   for (int i = 1; i <= num; i++) 
+			   {
+				   if (i % 2 != 0) 
+				   {
+					   System.out.print(i + " ");
+					   }
+				   }
+			   }
+		}
+	}
